@@ -1,0 +1,52 @@
+
+<main class="mainContentMyEvents">
+
+
+    <section class="myevents">
+
+        <h1 class="title_myev">Created</h1>
+        <section class="home homeMyEvents">
+
+            <% for (var i = created.length - 1; i>=0; i--) {%>
+
+                <a href="/event/<%= created[i]._id %>" data-id="<%= created[i]._id %>"><article class="eventList" style="background-image: url(<%=created[i].path%>); background-size: cover;">
+                    <div class="centered"><span class="typehover"><%=created[i].typeEvent.charAt(0).toUpperCase() + created[i].typeEvent.slice(1) %></span>
+                        <span id="numEventPerson"><%= created[i].persons  %>/<%= created[i].num %></span>
+                    </div>
+                </article></a>
+
+            <% } %>    
+
+        </section>
+
+    </section>
+
+    <hr id="line_myev"  color="#074e91">
+   
+    <section class="myevents">
+        <h1 class="title_myev">Joined</h1>
+        
+        
+        <section class="home homeMyEvents">
+
+            <% for (var i = 0; i < joined.length; i++) {
+                
+                if (joined[i].creator != nickname) {%>
+
+                <a href="/event/<%= joined[i]._id %>" data-id="<%= joined[i]._id %>"><article class="eventList" style="background-image: url(<%=joined[i].path%>); background-size: cover;">
+                    <div class="centered"><span class="typehover"><%=joined[i].typeEvent.charAt(0).toUpperCase() + joined[i].typeEvent.slice(1) %></span>
+                        <span id="numEventPerson"><%= joined[i].persons  %>/<%= joined[i].num %></span>
+                    </div>
+                </article></a>
+                 
+                
+            <% }} %>    
+
+        </section>
+
+    </section>
+
+
+
+
+</main>

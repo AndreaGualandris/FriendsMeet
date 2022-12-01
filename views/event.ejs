@@ -1,0 +1,68 @@
+<main class="mainContent">
+
+    <h1 id="titlEvent">
+        <%= event.typeEvent.charAt(0).toUpperCase() + event.typeEvent.slice(1) %>
+    </h1>
+
+    <section class="event">
+        <div class="eventText">
+            <div id="eventLabels">
+                <h2>No. of Partecipants: </h2>
+                <h2>Date of the event: </h2>
+                <h2>Level:</h2>
+                <h2>Location: </h2>
+                <h2>Average Age: </h2>
+                <h2>Cost: </h2>
+            </div>
+
+            <div id="eventData">
+                <h2 id="numPersons" data-persons="<%= event.persons%>" data-num="<%= event.num%>">
+                    <%= event.persons %>/<%= event.num %>
+                </h2>
+                <h2 id="date">
+                    <%= event.date%>
+                </h2>
+                <h2 id="level">
+                    <%= event.level%>
+                </h2>
+                <h2 id="location">
+                    <%= event.location%>
+                </h2>
+                <h2 id="age">
+                    <%= event.age%>
+
+                </h2>
+                <h2 id="cost">
+                    <%= event.cost%>   
+                </h2>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <form enctype="multipart/form" class="formEvent"
+                        action="/events/edit/?id=<%= event._id.valueOf()%>">
+                        <input id="suButton" type="submit" value="Edit">
+                    </form>  -->
+        <!-- <br> -->
+        <form enctype="multipart/form" class="formEvent formJoin" id="formJoin">
+            <input class="join btn41-43 btn-42" data-id="<%= event._id.valueOf()%>" type="submit" value="Join Us">
+        </form>
+
+      <!--   <form enctype="multipart/form" class="formEvent formDisjoin" id="formDisjoin">
+            <input class="dijoin btn41-43 btn-42" data-id="<%= event._id.valueOf()%>" type="submit" value="Disjoin">
+        </form>` -->
+
+        <form enctype="multipart/form" class="formEvent formEdit">
+            <input class="edit btn41-43 btn-42" data-id="<%= event._id.valueOf()%>" type="submit" value="Edit">
+        </form>
+
+        <form enctype="multipart/form" class="formEvent formDelete">
+            <input id="delete" class="btn41-43 btn-42" data-id="<%= event._id.valueOf()%>" type="submit" value="Delete">
+        </form>
+
+    </section>
+
+</main>

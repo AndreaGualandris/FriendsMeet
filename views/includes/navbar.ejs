@@ -1,0 +1,33 @@
+
+
+<div class="navbar">
+
+<% let span = document.querySelector(".account #nick")
+    if (!span)
+    { %>
+    <section class="nav">
+        <a id="home" href="/">Home</a>
+    </section>
+    <% } else
+    { %>
+    <section class="nav">
+        <a id="home" href="/">Logout</a>
+    </section>
+    <%}%>
+    <section class="nav">
+        <a id="page_create" href="/events/create">Create</a>
+    </section>
+
+    <section class="nav">
+        <a id="page_featured" href="/events">Featured</a>
+    </section>
+
+    <section class="nav">
+        <a id="page_search" href="/events/search">Search</a>
+    </section>
+
+    <section class="nav">
+        <a id="page_myevents" href="/myevents">My Events</a>
+    </section>
+</div>
+

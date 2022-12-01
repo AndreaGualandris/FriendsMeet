@@ -1,0 +1,85 @@
+<!--
+    Author: Gualandris Andrea
+-->
+<html>
+
+<head>
+    <title>FriendsMeet</title>
+    <meta name="author" content="Andrea Gualandris">
+
+    <style type="text/css">
+        @import url("css/style.css");
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&family=Rock+Salt&family=Rubik+Glitch&display=swap');
+    </style>
+
+    <link href="/css/style.css" rel="stylesheet" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/ajax.js"></script>
+    <script src="/ejs.min.js"></script>
+    <script src="/js/views.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="icon" href="/img/favicon.ico" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</head>
+
+
+
+<body class="bodyContainer"  onload="my_fetch()">
+
+    <header class="header">
+        <h1 id="title">FriendsMeet </h1>
+       
+    </header>
+
+    <div class="account">
+        <div class="account">
+        <a href="/signup" id="signUp" class="btn41-43 btn-42">
+            Sign Up
+          </a>
+          </div>
+          <div class="account">
+        <a href="/login" id="login" class="btn41-43 btn-42">
+            Log In
+          </a>
+          </div>
+    </div>
+
+    <div class="contain">
+
+        <aside class="asideL">
+
+        </aside>
+
+        <main class="mainContent">
+
+            <section class="home">
+                <article class="menu" id="page_create"><a href="/events/create">Create new event</a></article>
+                <article class="menu" id="page_search" ><a href="/events/search">Search event</a></article>
+
+                <article class="menu" id="page_featured"><a href="/events">Featured</a></article>
+                <article class="menu" id="page_myevents"><a href="/myevents">My events</a></article>
+
+            </section>
+
+        </main>
+
+        <aside class="asideR">
+          
+        </aside>
+
+
+
+    </div>
+</body>
+
+<footer>    
+
+<span id="copyright">Gualandris Andrea - &#169; copyright all rights reserved</span>
+
+</footer>
+
+
+
+
+</html>

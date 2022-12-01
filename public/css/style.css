@@ -1,0 +1,543 @@
+#title {
+    color: #034078;
+    font-family: 'Pacifico', cursive;
+    margin-top: 14px;
+}
+
+.h1 {
+    color: rgb(42, 132, 148);
+
+}
+
+.title_myev {
+    color: white;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: #00BBF9;
+}
+
+.artist {
+    display: none;
+}
+
+.header {
+    border-radius: 800px 800px 800px 800px;
+    height: 150px;
+    background-color: white;
+    background: radial-gradient(#00F5D4 5%, #00F5D4 15%, #00BBF9 60%);
+    color: black;
+    text-align: center;
+    font-size: 38px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    flex: 1;
+}
+
+.myevents {
+    width: 48%;
+    text-align: center;
+
+}
+
+#line_myev {
+    margin-top: 100px;
+    height: 90%;
+}
+
+.asideL {
+    width: 15%;
+    background-color: #00BBF9;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 335px;
+}
+
+
+.navbar {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+}
+
+.nav {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.asideR {
+    width: 15%;
+    background-color: #00BBF9;
+    color: white;
+    text-align: left;
+}
+
+.asideList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.mainContentMyEvents {
+    width: 100%;
+    background-color: #00BBF9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainContent {
+    width: 90%;
+    background-color: #00BBF9;
+}
+
+.home {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 10px 10px 10px;
+}
+
+.homeMyEvents {
+
+    margin: 20px 10px 10px 10px;
+}
+
+.menu {
+    height: 140px;
+    width: 420px;
+    background-color: #034078;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    padding-top: 90px;
+    box-shadow: inset 3px -4px 18px white;
+}
+
+.menu:hover {
+    height: 160px;
+    width: 470px;
+    transition-duration: 0.6s;
+    padding-top: 100px;
+    box-shadow: 7px -8px 18px #00f5d4;
+}
+
+
+footer {
+    background: linear-gradient(#00BBF9 15%, #006acb 85%);
+    bottom: 0;
+    width: 100%;
+    color: rgb(23, 240, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    z-index: 2;
+}
+
+#delete {
+    z-index: 3;
+
+}
+
+#copyright {
+    font-size: 12px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    margin-top: 10px;
+}
+
+.structural {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#nickname,
+#password,
+#name,
+#surname,
+#age,
+#typeEvent,
+#s,
+select,
+#cost,
+#num,
+#location,
+#date,
+#cover {
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+input {
+    border: none;
+}
+
+
+#suButton,
+#editPut {
+    width: 50%;
+}
+
+.edit,
+.join,
+#delete {
+    width: 30%;
+}
+
+#delete:hover {
+
+    background-color: crimson;
+    color: white;
+}
+
+.edit:hover,
+#editPut:hover,
+.join:hover {
+
+    background-color: rgb(146, 255, 231);
+}
+
+#suButton:hover {
+
+    background-color: rgb(146, 255, 231);
+}
+
+article {
+    margin: 35px;
+}
+
+a {
+    color: white;
+    z-index: 1;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(23, 240, 193);
+
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.formCreate {
+    width: 60%;
+    margin: 70px auto auto 23%;
+    text-align: center;
+}
+
+.forms {
+    width: 38%;
+    margin: 70px auto auto 32%;
+    text-align: center;
+}
+
+.formEvent {
+    text-align: center;
+}
+
+.labelSL {
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    width: 150px;
+    display: block;
+    float: left;
+    clear: right;
+    font-size: 23;
+    color: #034078;
+}
+
+label {
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    width: 210px;
+    display: block;
+    float: left;
+    clear: right;
+    font-size: 23;
+    color: #034078;
+}
+
+
+
+#radioGender {
+    width: 50px;
+}
+
+.typehover {
+    visibility: hidden;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+
+}
+
+.eventList:hover .typehover {
+    visibility: visible;
+    transition: 5s;
+    transition: visibility 1s, opacity 0.5s linear;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.eventList {
+
+    height: 100px;
+    width: 240px;
+    cursor: pointer;
+    background-color: #034078;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 90px;
+    box-shadow: inset 3px -4px 18px rgb(108 109 110);
+    text-shadow: 2px 0 #006acb, -2px 0 #007def, 0 2px #006acb, 0 -2px #006acb, 1px 1px #006acb, -1px -1px #006acb, 1px -1px #007def, -1px 1px #006acb;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+.eventList:hover {
+
+    transition-duration: 1s;
+    height: 130px;
+    width: 280px;
+    text-align: center;
+    background-color: black;
+    font-size: 45px;
+    padding-top: 90px;
+    border-radius: 50px;
+}
+
+.eventText {
+    display: flex;
+    justify-content: center;
+}
+
+#eventLabels {
+    display: inline-block;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #034078;
+}
+
+#eventData {
+    display: inline-block;
+    text-align: end;
+    font-family: 'Righteous';
+    font-size: 20px;
+}
+
+
+.search {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#s {
+    width: 800px;
+    height: 40px;
+}
+
+
+#sub:hover {
+    background-color: rgb(146, 255, 231);
+}
+
+
+
+#titlEvent {
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    ;
+    color: white;
+    text-align: center;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*        --------------------            --------------------          */
+
+
+.btn41-43 {
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-family: 'Righteous', cursive;
+    font-weight: 800;
+    background: transparent;
+    outline: none ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+.btn-42 {
+    z-index: 1;
+    color: white;
+}
+
+.btn-42:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(76, 209, 233);
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    font-weight: bold;
+
+}
+
+.btn-42:hover {
+    color: #034078;
+}
+
+.btn-42:hover:after {
+    top: 0;
+    height: 100%;
+    border-radius: 50px;
+}
+/* 
+.btn-42:active {
+    top: 2px;
+} */
+
+
+/*  ---------------- MEDIA SCREEN ------------------- */
+
+
+
+@media screen and (max-device-width: 768px) {
+    .navbar {
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-device-width: 768px) {
+    .asideL {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-device-width: 768px) {
+    .contain {
+        width: 100%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .mainContent {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .asideR {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    article {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    footer {
+
+        display: inline-block;
+        width: 100%;
+        align-items: center;
+        height: 70px;
+
+    }
+}
+
+
+
+
+@media screen and (max-device-width: 768px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px 10px 10px 10px;
+    }
+}
+
+@media screen and (max-device-width: 768px) {
+    .home {
+        margin-bottom: 30px;
+    }
+}

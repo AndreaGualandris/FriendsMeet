@@ -1,0 +1,41 @@
+
+
+<%console.log(events)
+ if(!events) { %>
+                    <main class="mainContent" style="
+                                                    background-image: url(img/gifside.gif) ;
+                                                    background-repeat: no-repeat;
+                                                    background-position: center;
+                                                    background-size:cover;
+                                                    background-size: 335px;">
+
+                        <section class="home">
+
+                        </section>
+
+                    </main>
+
+        <% }else  { %>
+
+                    <main class="mainContent">
+                        <section class="home">
+
+                        <% if(events) { for (var i=0; i < events.length; i++) { %>
+
+                            <a href="/event/<%= events[i]._id %>" data-id="<%= events[i]._id %>">
+                                <article class="eventList"
+                                    style="background-image: url(../<%=events[i].path%>); background-size: cover;">
+                                    <div class="centered"><span class="typehover"><%=events[i].typeEvent%></span>
+                                                          <span id="numEventPerson"><%= events[i].persons  %>/<%= events[i].num %></span>
+                                    </div>
+                                </article>
+                                    
+                            </a>
+                
+                            <% } }%>
+
+                            </section>
+                    </main>
+
+      <%  }
+        %>

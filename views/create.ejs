@@ -1,0 +1,48 @@
+
+
+
+<main class="mainContent">
+
+
+    <form enctype="multipart/form-data" class="forms formCreate" action="/events" method="POST">
+        <label for="typeEvent">Type of Event</label>
+        <input type="text" id="typeEvent" name="typeEvent" placeholder="Football" required/><br><br>
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="Lugano" required/><br><br>
+     
+
+        <label for="num">No. of participants</label>
+        <input type="number" id="num" name="num" placeholder="2" min="2" required/>
+        <br><br>
+
+        <label for="age">Average age</label>
+        <input type="number" id="age" name="age" placeholder="18" min="12" max="99" required/>
+        <br><br>
+
+        <label for="cost">Cost to be shared</label>
+        <input type="number" id="cost" name="cost" placeholder="0" min="0" required />
+        <br><br>
+
+        <label for="level">Level</label>
+        <select id="level" name="level">
+            <option value="basic">Basic</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+        <br><br>
+
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required/>
+        <br><br>
+        
+        <label for="cover">Cover image</label>
+        <input type="file" id="cover" name="cover" accept=".jpg, .png, .svg, .gif" required/>
+        <br><br><br>
+
+
+        <input id="suButton" class="btn41-43 btn-42" type="submit" value="Create">
+    </form>
+
+
+
+</main>

@@ -1,0 +1,9 @@
+<aside class="asideR asideList">
+    <span class="asideList" >Partecipants</span>
+
+    <%for(let i = 0; i < event.listNick.length; i++) { 
+
+    %>
+        <span class="asideList" style="display: list-item;" data-nick="<%= event.listNick[i]%>"><%= event.listNick[i] %></span>
+        <% } %>
+</aside>

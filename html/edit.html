@@ -1,0 +1,129 @@
+<!--
+    Author: Gualandris Andrea
+-->
+<html>
+
+<head>
+    <title>FriendsMeet</title>
+    <meta name="author" content="Andrea Gualandris">
+
+    <style type="text/css">
+        @import url("css/style.css");
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rock+Salt&display=swap');
+    </style>
+
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+
+
+<body class="bodyContainer">
+
+    <header class="header">
+        <h1 id="title">FriendsMeet</h1>
+
+    </header>
+
+    <div class="navbar">
+
+        <section class="nav">
+            <a href="index.html">Home</a>
+        </section>
+
+        <section class="nav">
+            <a href="featured.html">Featured</a>
+        </section>
+
+        <section class="nav">
+            <a href="search.html">Search</a>
+        </section>
+
+        <section class="nav">
+            <a href="about.html">About</a>
+        </section>
+    </div>
+
+
+
+    <div class="contain">
+
+        <aside class="asideL">
+
+        </aside>
+
+        <main class="mainContent">
+
+
+            <form enctype="multipart/form-data" class="forms" action="/" method="POST">
+                <label for="typeEvent">Type of Event</label>
+                <input type="text" id="typeEvent" name="typeEvent" placeholder="Football"><br><br>
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" placeholder="Lugano"><br><br>
+                <!--   <label>Select gender target:</label>
+                <table id="radioGender">
+
+                    <tr>
+                        <td><input type="radio" id="males" name="gender" value="males"></td>
+                        <td><label for="males">Males</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="females" name="gender" value="females"></td>
+                        <td><label for="females">Females</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="both" name="gender" value="both"></td>
+                        <td><label for="both">Both</label></td>
+                    </tr>
+                </table>
+                <br><br> -->
+
+                <label for="num">No. of participants</label>
+                <input type="number" id="num" name="num" placeholder="2" min="2">
+                <br><br>
+
+                <label for="age">Average age</label>
+                <input type="number" id="age" name="age" placeholder="18" min="12" max="99">
+                <br><br>
+
+                <label for="cost">Cost to be shared</label>
+                <input type="number" id="cost" name="cost" placeholder="0" min="0">
+                <br><br>
+
+                <label for="level">Level</label>
+                <select id="level" name="level">
+                    <option value="basic">Basic</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                <br><br>
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+                <br><br><br>
+
+
+                <input id="suButton" type="submit">
+            </form>
+
+
+
+        </main>
+
+        <aside class="asideR">
+
+        </aside>
+
+
+
+    </div>
+</body>
+<footer>
+    <p>Gualandris Andrea - </p>
+    <span>&#169; copyright all rights reserved</span>
+    <p></p>
+</footer>
+
+
+
+
+</html>
