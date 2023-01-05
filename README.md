@@ -1,4 +1,4 @@
-# Retake web atelier project of Gualandris Andrea.
+# Web atelier project of Gualandris Andrea.
 
 # FriendsMeet
 
