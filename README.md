@@ -1,17 +1,12 @@
-# Retake web atelier project of Gualandris Andrea.
-
 # FriendsMeet
 
-This web application allows users to organise events and participate in those organised by others. 
-A user can create their own account that they will use to log in. A user can create an event of any category that will be visible to all. Once the event has been created, it will be possible to delete and edit it. Other users can add to the event until the maximum number of participants has been reached.
-Within the myevents page, it is possible to see the events that have been created by the logged-in user and those to which they have been added.
-Within the search page, it is possible to search for events by category and location.
-From each page where you see events, you can enter the event page and click on it to see detailed information, join buttons
-disjoin and the edit and delete buttons if you are logged in as the event creator. 
-On the featured page, you can see the events in reverse chronological order.
+FriendsMeet is a web application designed to make it easier for friends to meet and organize events. 
 
+## Overview
 
-# Use Case Scenarios
+The application provides a platform where users can create, manage, and join events. It leverages real-time communication to provide live updates to all users. 
+
+# Real-Time Use Case Scenarios 
 
 List here the use case scenarios you plan to implement with your real-time Web applications
 
@@ -23,18 +18,24 @@ List here the use case scenarios you plan to implement with your real-time Web a
 
 - Deleting an event 
 
-- Join an event
+## Technologies Used
 
-- Disjoin an event
+FriendsMeet is built using the following technologies:
 
-# Chosen Web technologies
+- Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js is used for building fast and scalable network applications.
+- Express.js: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+- WebSocket: A communication protocol that provides full-duplex communication channels over a single TCP connection.
+- AJAX: A set of web development techniques using many web technologies on the client side to create asynchronous web applications.
 
-HTML & CSS
-Javascript
-Express.js
-mongodb
-Yarn
-EJS
+## Getting Started
 
+To get started with FriendsMeet, follow these steps:
 
+1. Clone the repository to your local machine using `git clone https://github.com/AndreaGualandris/FriendsMeet.git`.
+2. Navigate to the project directory.
+3. Install the necessary dependencies with `npm install`.
+4. Start the server with `npm start`.
+5. Open your web browser and navigate to `http://localhost:3000` to start using the application.
+
+Please note that you might need to have Node.js and npm installed on your machine to run this project.
 
