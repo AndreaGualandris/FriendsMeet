@@ -6,7 +6,7 @@ FriendsMeet is a web application designed to make it easier for friends to meet 
 
 The application provides a platform where users can create, manage, and join events. It leverages real-time communication to provide live updates to all users. 
 
-# Real-Time Use Case Scenarios 
+## Real-Time Use Case Scenarios 
 
 List here the use case scenarios you plan to implement with your real-time Web applications
 
